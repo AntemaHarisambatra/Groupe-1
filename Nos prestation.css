@@ -1,24 +1,7 @@
-*{
-    margin: o;
-    padding: o;
-    box-sizing: border-box;
-}
-
-.text{
-    clear: both;
-}
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: grey;
-}
-
-header{
-    background-color: white;
-    padding: 10px 20px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .navbar{
@@ -27,20 +10,28 @@ header{
     align-items: center;
 }
 
-.navlinks{
-    list-style-type: none;
+.logo{
+    font-size: 10px;
+    margin: auto;
+    height: 20px;
+    width: 40px;
+}
+
+.navlinks ul{
+    margin: 0;
+    padding: 0;
     display: flex;
-    text-align: center;
 }
 
-.navlinks li{
-    margin: 0 15px;
-}
-
-.navlinks li a{
-    text-decoration: none;
+.navlinks ul li{
+    list-style-type: none;
     color: grey;
-    transition: color 0.3s;
+}
+
+.navlinks  ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
 }
 
 .navlinks li a:hover{
