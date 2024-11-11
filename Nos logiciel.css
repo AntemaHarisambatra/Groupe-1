@@ -71,3 +71,7 @@ body{
 .container p{
     text-decoration: none;
 }
+
+footer{
+    background-color: rgb(43, 43, 129);
+}
