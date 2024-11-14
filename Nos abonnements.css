@@ -1,16 +1,10 @@
-<<<<<<< HEAD
 
-.first{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.934);
-    color: bisque;
-=======
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: grey;
+    width: 1500px;
 }
 
 .navbar{
@@ -34,7 +28,6 @@ body{
 
 .navlinks ul li{
     list-style-type: none;
-    color: grey;
 }
 
 .navlinks  ul li a{
@@ -48,13 +41,90 @@ body{
     color: rgb(172, 119, 94);
 }
 
-
-
-.article{
+.first{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.934);
-    color: bisque;
->>>>>>> 6ad8432409adb9ed5c567e410a04a3d49790433e
+    color: rgb(0, 0, 0);
+    
 }
+.box-article{
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.AA{
+    margin-left: 20px;
+}
+
+p{
+ color: rgb(173, 149, 119);
+}
+
+.title{
+    color: rgba(48, 48, 167, 0.904);
+}
+
+.article ul li{
+    list-style-type: none;
+}
+
+.article ul li p{
+    color: grey;
+}
+
+.footer-entier {
+    background-color: rgba(52, 52, 109, 0.621);
+    color: bisque;
+ }
+ 
+ .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+ }
+ 
+ .footer ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .footer ul li a {
+    text-decoration: none;
+    color: bisque;
+ }
+ 
+ footer {
+    text-align: center;
+    padding: 10px;
+ }
+ 
+ .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+ }
+ 
+ .social-icons a {
+    color: bisque;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+ }
+ 
+ .social-icons a:hover {
+    font-size: larger;
+    transform: translateY(-3px);
+ }
+ 
+ .vertical-hr {
+    width: 1px;
+    height: 200px;
+    background-color: bisque;
+    border: none;
+ }
+ 
+  
