@@ -39,48 +39,6 @@ body{
     color: rgb(172, 119, 94);
 }
 
-.First{
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.container{
-    background-color: #ccc;
-    padding: 10px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-}
-
-.container h3{
-    color: #1a1a1a;
-}
-
-.btn{
-    background-color: #1a1a1a;
-    color: white;
-    padding: 4px 10px;
-    width: 170px;
-    text-decoration: none;
-}
-
-.btn p{
-    text-decoration: none;
-}
-
-.btn:hover{
-    cursor: pointer;
-    background-color: grey;
-}
-
-.container p{
-    text-decoration: none;
-}
-
-.title{
-    color: rgb(23, 23, 112);
-}
-
 .footer-entier{
     background-color: rgba(52, 52, 109, 0.621);
  }

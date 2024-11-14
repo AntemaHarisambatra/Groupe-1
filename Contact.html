@@ -3,65 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nos prestation</title>
-    <link rel="stylesheet" href="Nos prestation.css" type="text/css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact.css" type="text/css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="Logo"><img src="Image/Logo/logo.png" alt="logo"></div>
-            <div class="navlinks"> 
+            <div class="navlinks">
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="Nos prestation.html">Nos prestations</a></li>
                     <li><a href="Nos logiciel.html">Nos logiciels</a></li>
                     <li><a href="special etudiant.html">Spécial étudiants</a></li>
                     <li><a href="Nos abonements.html">Nos abonnements</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Blog.html">Blog </a></li>
                     <li><a href="Contact.html">Contact</a></li>
                     <li><a href="#"><img src="Image/Logo/panier.png" alt=""></a></li>
                 </ul>
+            </div>    
             </div>
         </nav>    
     </header>
-    
-    <section>
-        <div id="Image"><img src="Image/Nos prestation/Nos pres.png" alt=""></div>
-        <div class="countainer">
-            <img src="Image/Nos prestation/A.png" alt="A">
-            <h4><a href="##">Assistance : Copilote Gestion</a></h4>
-        </div>
-        <div class="countainer">
-            <img src="Image/Nos prestation/B.png" alt="B">
-            <h4><a href="##">Transmission & Acquisition</a></h4>
-        </div>
-        <div class="countainer">
-                <img src="Image/Nos prestation/C.png" alt="C">
-            <h4><a href="##">Spécial étudiants</a></h4>
-        </div>
-    </section>
 
-    <section>
-        <div class="Last">
-            <div class="title">
-                <h2>Derniers articles</h2>
-            </div>
-            <div class="article">
-                <ul>
-                    <li><p>&rarr;Aide-Bilans Comparés</p></li>
-                    <li><p>&rarr;Vers une nouvelle crise économique</p></li>
-                    <li><p>&rarr;Installer Xistore</p></li>
-                    <li><p>&rarr;Xistore : Test de benford</p></li>
-                    <li><p>&rarr;Xistore : Virement et prélèvement SEPA</p></li>
-                    <li><p>&rarr;Comprendre et pratiquer l'analyse financière</p></li>
-                    <li><p>&rarr;Présentation du tableau des SIG retraité</p></li>
-                    <li><p>&rarr;Analyse financière par la dynamique des flux de trésorerie</p></li>
-                    <li><p>&rarr;Xistore : Graphique</p></li>
-                    <li><p>&rarr;Logiciel SSI-Cotisation-Calcul de la provision</p></li>
-                </ul>
-            </div>
+    <div class="contact-container">
+        <div class="row">
+            <h1>Contactez-nous</h1>
+            <img src="Image/Contact/A.png" alt="A">
         </div>
-    </section>
+        <div class="row">
+            <h2>Formulaire de contact</h2>
+        <form class="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="name">Prénom:</label>
+            <input type="text" id=" first name" name=" first name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="Image/Contact/B.png" alt="B">
+    </div>
 
     <div class="footer-entier">
         <div class="footer">
@@ -96,7 +88,6 @@
                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
             </ul> 
             </div>
-           
     
         <div> 
          <footer>
@@ -106,6 +97,6 @@
         </div>
          
       </div>     
-    
+
 </body>
 </html>

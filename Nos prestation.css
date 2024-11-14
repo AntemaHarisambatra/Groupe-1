@@ -39,4 +39,48 @@ body{
 }
 
 
+.footer-entier{
+    background-color: rgba(52, 52, 109, 0.621);
+ }
+
+ .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(52, 52, 109, 0.621);
+    color: bisque;
+ }
+
+  .footer ul{
+    margin-left: -5px;
+  }
+
+ .footer li{
+    list-style-type: none;
+ }
+
+ .footer ul li a {
+    text-decoration: none;
+ }
+ 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: blue;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: blue;
+    transform: translateY(-3px);
+}
+
+
+
 
