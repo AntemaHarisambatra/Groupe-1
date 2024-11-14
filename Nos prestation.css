@@ -25,17 +25,18 @@ body{
 
 .navlinks ul li{
     list-style-type: none;
-    color: grey;
 }
 
 .navlinks  ul li a{
     text-decoration: none;
     padding: 1rem;
     display: flex;
+    color: grey;
 }
 
 .navlinks li a:hover{
-    color: blue;
+    color: rgb(57, 57, 218);
 }
+
 
 
