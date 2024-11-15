@@ -1,0 +1,170 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: grey;
+    width: 1500px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   
+}
+
+.navlinks ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    color: #555;
+    padding: 8px;
+    transition: color 0.3s;
+}
+
+.navlinks ul li a:hover {
+    color: #a4715e;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box-article {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.box-article img {
+    width: 100%;
+    height: auto;
+}
+
+.box-article h2 {
+    /*font-size: 1.5rem;*/
+    color: #333;
+}
+
+.box-article p {
+    color: burlywood;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.latest-articles {
+    padding: 20px;
+   
+}
+
+.latest-articles h2 {
+    color: #3030a7;
+}
+
+.latest-articles ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container {
+    background-color: #3a3abe;
+    color: bisque;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    padding: 5px 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; 
+     margin-right: 50px;
+    margin-top: 150px;
+}
+
+.social-icons a {
+    color: bisque;
+    font-size: 25px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+ }
+.fa-facebook{
+    border-radius: 60px;
+    background-color:white ;
+    color: rgb(18, 18, 226);
+  
+ }
+ .fa-linkedin{
+  border-radius: 60px;
+  background-color: white ;
+  color:rgb(127, 219, 255);
+ }
+ .fa-youtube{
+    border-radius: 90px;
+    background-color: white;
+    color: red;
+ }
+
+
+ .vertical-hr {
+    width: 1px;
+    height: 200px;
+    background-color: bisque;
+    border: none;
+ }
+/* Responsive */
+@media (max-width: 768px) {
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

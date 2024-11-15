@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -39,6 +45,74 @@ body{
     color: rgb(172, 119, 94);
 }
 
+.contact-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.row {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.contact-image {
+    width: 45%;
+}
+
+.form-container {
+    width: 50%; 
+    max-width: 100%;
+}
+
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #08305c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .content-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-image, .form-container {
+        width: 100%; 
+    }
+}
+
+.img{
+    margin-top: 40px;
+}
+
+
 .footer-entier {
     background-color: rgba(52, 52, 109, 0.621);
     color: bisque;
@@ -75,7 +149,7 @@ body{
  
  .social-icons a {
     color: bisque;
-    font-size: 1.2rem;
+    font-size: ;
     transition: color 0.3s ease, transform 0.3s ease;
  }
  
@@ -83,6 +157,24 @@ body{
     font-size: larger;
     transform: translateY(-3px);
  }
+
+ .fa-facebook{
+    border-radius: 60px;
+    background-color:white ;
+    color: rgb(18, 18, 226);
+  
+ }
+ .fa-linkedin{
+  border-radius: 60px;
+  background-color: white ;
+  color:rgb(127, 219, 255);
+ }
+ .fa-youtube{
+    border-radius: 90px;
+    background-color: white;
+    color: red;
+ }
+
  
  .vertical-hr {
     width: 1px;

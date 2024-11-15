@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="Contact.css" type="text/css">
+    <link rel="stylesheet" href="font/css/all.css">
 </head>
 <body>
     <header>
@@ -13,10 +14,10 @@
             <div class="navlinks">
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
-                    <li><a href="Nos prestation.html">Nos prestations</a></li>
-                    <li><a href="Nos logiciel.html">Nos logiciels</a></li>
-                    <li><a href="special etudiant.html">Spécial étudiants</a></li>
-                    <li><a href="Nos abonements.html">Nos abonnements</a></li>
+                    <li><a href="Nos_prestation.html">Nos prestations</a></li>
+                    <li><a href="Nos_logiciel.html">Nos logiciels</a></li>
+                    <li><a href="special_etudiant.html">Spécial étudiants</a></li>
+                    <li><a href="Nos_abonnements.html">Nos abonnements</a></li>
                     <li><a href="Blog.html">Blog </a></li>
                     <li><a href="Contact.html">Contact</a></li>
                     <li><a href="#"><img src="Image/Logo/panier.png" alt=""></a></li>
@@ -29,27 +30,30 @@
     <div class="contact-container">
         <div class="row">
             <h1>Contactez-nous</h1>
-            <img src="Image/Contact/A.png" alt="A">
         </div>
-        <div class="row">
-            <h2>Formulaire de contact</h2>
-        <form class="contact-form">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="name">Prénom:</label>
-            <input type="text" id=" first name" name=" first name" required>
-
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Envoyer</button>
-        </form>
+        <div class="content-row">
+            <img src="Image/Contact/A.png" alt="A" class="contact-image">
+            <div class="form-container">
+                <h2>Formulaire de contact</h2>
+                <form class="contact-form">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="first-name">Prénom:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+    
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
         </div>
     </div>
+    
 
     <div class="img">
         <img src="Image/Contact/B.png" alt="B">
@@ -57,41 +61,47 @@
 
     <div class="footer-entier">
         <div class="footer">
-            <ul>
-                <li><h3>AGI</h3></li>
-                <li><a href="#">&#10004;Nos logiciels</a></li>
-                <li><a href="#">&#10004;Nos abonnements</a></li>
-                <li><a href="#">&#10004;Espaces étudiants</a></li>
+            
+              <ul>
+                <li><h4>AGI</h4></li>
+               <li><a href="Nos logiciel.html">Nos logiciels</a></li>
+               <li><a href="Nos abonnements.html">Nos abonnements</a></li>
+               <li><a href="special etudiant.html">Espaces étudians</a></li>
             </ul>
             <hr class="vertical-hr">
-    
-            <ul>
-                <li><h2>Liens utiles</h2></li>
-                <li><a href="#"> &gt;&gt; Utilitaires Excel</a></li>
-                <li><a href="#"> &gt;&gt; Actualités</a></li>
-                <li><a href="#"> &gt;&gt; Mentions légales</a></li>
-                <li><a href="#"> &gt;&gt; CGV</a></li>
+           
+             <ul>
+                <li> <h4>Liens utiles</h4></li>
+                <li><a href="#">Utilitaires Excel</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">CGV</a></li>
             </ul>
             <hr class="vertical-hr">
-    
+            
             <ul>
-                <li><h2>Nous contacter</h2>
-                <li><a href="#"></a><i class=" fas fa-map-marker-alt"></i> 17, Rue Paule Tiffy, 34500 Béziers</a></li>
-                <li><a href="#"><i class="fas fa-phone-alt"></i> 06 08 89 21 64</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i> agi.expert34@gmail.com</a></li>
+                <li><h4>Nous contacter</h4></li>
+                <li><a href="#"><i class="fas fa-map-marker-alti">17,Rue paule tiffy 34500 Béziers</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt"></i>06 08 89 21 64</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i>agi.expert34@gmail.com</a></li>
             </ul>
             <hr class="vertical-hr">
     
             <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-            </ul>
+               <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul> 
         </div>
-        
-        <hr>
-        <footer>
-            <p>&copy; 2021 AGI | Propulsé par ILO Madagascar</p>
-        </footer>
+    
+        <div> 
+         <footer>
+            <hr>
+            <p>copyright &copy;2021 AGI Propulsé par ILO Madagascar</p>
+           </footer>
+        </div>
+         
+      </div>     
+
 </body>
 </html>

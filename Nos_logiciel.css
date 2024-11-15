@@ -39,6 +39,28 @@ body{
     color: rgb(172, 119, 94);
 }
 
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.934);
+    color: grey;
+    list-style-type: none;
+}
+
+
+.title{
+    color: rgba(48, 48, 167, 0.904);
+}
+
+.second-article ul li{
+    list-style-type: none;
+}
+
+.second-article ul li p{
+    color: grey;
+}
+
 .footer-entier {
     background-color: rgba(52, 52, 109, 0.621);
     color: bisque;
@@ -68,39 +90,38 @@ body{
  
  .social-icons {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 15px;
- }
- 
- .social-icons a {
-    color: bisque;
-    font-size: 1.2rem;
-    transition: color 0.3s ease, transform 0.3s ease;
- }
- 
- .social-icons a:hover {
-    font-size: larger;
-    transform: translateY(-3px);
- }
- .fa-facebook{
-   border-radius: 60px;
-   background-color:white ;
-   color: rgb(18, 18, 226);
- 
-}
-.fa-linkedin{
- border-radius: 60px;
- background-color: white ;
- color:rgb(127, 219, 255);
-}
-.fa-youtube{
-   border-radius: 90px;
-   background-color: white;
-   color: red;
-}
+    gap: 10px; 
+     margin-right: 50px;
+    margin-top: 150px;
 
- 
+    }
+    
+    .social-icons a {
+        color: bisque;
+        font-size: 25px;
+        transition: transform 0.3s;
+    }
+    
+    .social-icons a:hover {
+        transform: translateY(-3px);
+    }
+ .fa-facebook{
+    border-radius: 60px;
+    background-color:white ;
+    color: rgb(18, 18, 226);
+  
+ }
+ .fa-linkedin{
+  border-radius: 60px;
+  background-color: white ;
+  color:rgb(127, 219, 255);
+ }
+ .fa-youtube{
+    border-radius: 90px;
+    background-color: white;
+    color: red;
+ }
+
  .vertical-hr {
     width: 1px;
     height: 200px;
@@ -108,4 +129,5 @@ body{
     border: none;
  }
  
+
   
