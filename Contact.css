@@ -47,7 +47,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(52, 52, 109, 0.621);
+     background-color: rgba(52, 52, 109, 0.621);
     color: bisque;
  }
 
