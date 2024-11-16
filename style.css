@@ -34,7 +34,10 @@ body{
     display: flex;
     color: grey;
 }
-
+#cart{
+   position: relative;
+   bottom: 20px;
+}
 .navlinks li a:hover{
     color: rgb(172, 119, 94);
 }
@@ -108,4 +111,11 @@ body{
     border: none;
  }
  
-  
+@media screen and (max-width: 768px){ 
+   .navbar{
+      flex-wrap: wrap;
+   }
+   .navlinks ul{
+      flex-wrap: wrap;
+   }
+}

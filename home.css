@@ -23,8 +23,7 @@ header div nav ul li a{
 #pic1{
     width: 100%;
     height: 600px;
-    background-image: url("images/pic1.png");
-    background-position: center;
+    background-image: url("image/home/pic1.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,7 +35,7 @@ header div nav ul li a{
 #pic2{
     width: 45%;
     height: 600px;
-    background-image: url("images/pic2.0.png");
+    background-image: url("image/home/pic2.0.png");
     background-repeat: no-repeat;
     background-position: top;
     position: relative;
